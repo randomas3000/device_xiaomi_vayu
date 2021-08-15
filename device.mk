@@ -143,6 +143,11 @@ PRODUCT_PACKAGES += \
 ifneq ($(TARGET_BUILD_VARIANT),eng)
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 endif
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/parts/init.xiaomiparts.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.xiaomiparts.rc \
+
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.lcd.cabc_mode=1
 
 # Display
 PRODUCT_PACKAGES += \
