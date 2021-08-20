@@ -791,4 +791,14 @@
         <item>150</item>
     </array>
 
+    <!-- LiveDisplay -->
+    <bool name="config_liveDisplayAvailable">true</bool>
+
+    <!-- Screen -->
+    <bool name="config_haveHigherAspectRatioScreen">true</bool>
+    <item name="config_screenAspectRatio" format="float" type="dimen">2.1</item>
+
+    <!-- System Info-->
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone14/temp</string>
+    <string name="config_sysCPUTempMultiplier">0.001</string>
 </resources>
