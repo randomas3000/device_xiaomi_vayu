@@ -368,6 +368,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor
 
+
+# Remove unwanted packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
+
+
 # Overlays
 PRODUCT_PACKAGES += \
    CarrierConfigOverlayVayu \
