@@ -30,10 +30,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 BUILD_FINGERPRINT := Xiaomi/vayu_global/vayu:12/RKQ1.200826.002/V13.0.5.0.SJUMIXM:user/release-keys
 
 
-#CherishOS additions
+# CherishOS additions
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# maintainer stuff
+CHERISH_BUILD_TYPE := OFFICIAL
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=randomas3000
