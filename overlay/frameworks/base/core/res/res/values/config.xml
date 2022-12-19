@@ -1,0 +1,2 @@
+<!-- Pocket Lock -->
+    <bool name="config_pocketModeSupported">true</bool>
