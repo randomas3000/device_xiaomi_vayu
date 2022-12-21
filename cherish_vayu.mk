@@ -39,9 +39,3 @@ TARGET_BOOT_ANIMATION_RES := 1080
 CHERISH_BUILD_TYPE := OFFICIAL
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.cherish.maintainer=randomas3000
-
-
-#blur
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-        ro.surface_flinger.supports_background_blur=1
-ro.sf.blurs_are_expensive=1
