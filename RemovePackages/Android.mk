@@ -18,6 +18,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     GCS \
     GoogleCamera \
     GoogleCameraGo \
+    GoogleFeedback \
     GrapheneOS-Camera \
     Maps \
     Music \
@@ -49,6 +50,7 @@ LOCAL_OVERRIDES_PACKAGES := \
     VZWAPNLib \
     VzwOmaTrigger \
     YouTube \
+    Velvet \
     YouTubeMusicPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
