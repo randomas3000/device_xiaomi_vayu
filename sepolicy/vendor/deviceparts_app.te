@@ -1,3 +1,0 @@
-# Allow deviceparts_app to lookup vendor_sysfs_graphics
-allow deviceparts_app vendor_sysfs_graphics:dir search;
-
