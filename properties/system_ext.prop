@@ -21,6 +21,3 @@ bluetooth.profile.sap.server.enabled=true
 
 # DPM
 persist.vendor.dpm.feature=11
-
-# DeviceParts
-persist.deviceparts.lcd.cabc=1
