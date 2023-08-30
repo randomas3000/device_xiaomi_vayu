@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_vayu.mk
+    $(LOCAL_DIR)/droidx_vayu.mk
 
 COMMON_LUNCH_CHOICES := \
-cherish_vayu-eng \
-cherish_vayu-userdebug \
-cherish_vayu-user
+droidx_vayu-eng \
+droidx_vayu-userdebug \
+droidx_vayu-user
